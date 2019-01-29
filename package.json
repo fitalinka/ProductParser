@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parser": "node ./index.js",
+    "runapp": "node ./app.js",
+    "test": "node ./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^5.1.1",
+    "iconv-lite": "^0.4.24",
+    "jquery": "^3.3.1",
+    "moment": "^2.23.0",
+    "mysql": "^2.16.0",
+    "prettyjson": "^1.2.1",
+    "request": "^2.88.0",
+    "sitemap-stream-parser": "^1.6.0",
+    "underscore": "^1.9.1"
+  }
+}
