@@ -24,9 +24,8 @@ function Parser() {
     this.statusProcessingError = 500;
 
     this.searchParams = {
-        // status: 1,
+        status: 0,
         // status_skan: this.typeSkanParser
-        name: 'intershina.kharkov.ua'
     };
 }
 
